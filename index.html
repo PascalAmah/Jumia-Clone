@@ -31,20 +31,20 @@
                 <button class="btn btn-outline-success" type="submit">SEARCH</button>
               </form>
               <div class="navbar-nav">
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown d-none d-lg-block">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <i class="fa-solid fa-user fa-lg pe-2"></i>Account<i class="bi bi-chevron-down ps-2" style="font-size: .8rem;"></i>
                         </a>
                         <div class="box dropdown-menu">
-                            <div class="d-flex justify-content-center">
-                                <button class="btn btn-outline-success" type="button">Sign In</button>
-                            </div><hr>
+                          <div class="d-flex justify-content-center">
+                            <button class="btn btn-outline-success" type="button">Sign In</button>
+                          </div><hr>
                           <a class="dropdown-item" href="#">My Account</a>
                           <a class="dropdown-item" href="#">Orders</a>
                           <a class="dropdown-item" href="#">Saved Item</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown d-none d-lg-block">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           <i class="fa-solid fa-circle-question fa-lg pe-2"></i>Help<i class="bi bi-chevron-down ps-2" style="font-size: .8rem;"></i>
                         </a>
@@ -59,8 +59,10 @@
                             <button class="btn btn-outline-success" type="button">Help</button>
                           </div>
                         </div>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping fa-lg pe-2"></i>Cart</a>
                     </div> 
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping fa-lg pe-2"></i>Cart</a>
                 </div>
             </div> 
           </nav>
@@ -80,7 +82,7 @@
       <!-- Home -->
       <div class="container">
         <div class="row">
-          <div class="col-lg-2">
+          <div class="col-lg-2 d-none d-lg-block home-categories">
             <p><a href=""><i class="bi bi-gift pe-1"></i>Supermarket</a></p>
             <p><a href=""><i class="bi bi-bag-plus pe-1"></i>Health & Beauty</a></p>
             <p><a href=""><i class="bi bi-house-door pe-1"></i>Home & Office</a></p>
@@ -132,7 +134,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2">
+          <div class="col-lg-2 d-none d-lg-block">
             <div class="side-img">
               <img src="https://ng.jumia.is/cms/0-1-initiatives/official-stores/official-store.jpg" alt="">
               <img src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2023/JForce.png" alt="">
@@ -317,7 +319,351 @@
           </div>
         </div>
       </div>
-       
+
+      <!-- Flash Sales Row -->
+      <div class="container">
+        <div class="container" style="display: flex; justify-content: space-between;">
+          <h4><i class="bi bi-tags-fill pe-2"></i>Flash Sales</h4>
+          <p>Time:<span>06h : 04m : 42s</span></p>
+          <a href="">SEE ALL <i class="bi bi-chevron-right ps-2"></i></a>
+        </div>
+        <div class="row g-2">
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/9523401/1.jpg?1267" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">NIVEA Dry Impact Roll-on For Men, 72h- 50ml (Pack Of 3)</p>
+                <h5>₦ 2,450</h5>
+                <span><s>₦ 5,000</s></span>
+                <p>55 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-51%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/1083311/1.jpg?8105" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Men's Fashion Sneakers Running Shoes</p>
+                <h5>₦ 6,500</h5>
+                <span><s>₦ 10,000 - ₦ 11,578</s></span>
+                <p>70 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-32%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/002097/1.jpg?9371" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Rechargeable Metal Simple Style Hair Clipper Black Gold</p>
+                <h5>₦ 4,950</h5>
+                <span><s>₦ 7,000</s></span>
+                <p>25 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-30%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/6548631/1.jpg?2710" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Men's Tracksuit Sportswear Two Piece Set - Grey</p>
+                <h5>₦ 7,950</h5>
+                <span><s>₦ 10,000</s></span>
+                <p>14 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 19%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-21%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/15/1660032/1.jpg?1375" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Tecno POP 7(BF6) 6.6" HD+ 2GB RAM/64GB ROM Android 12 - Capri Blue</p>
+                <h5>₦ 70,150</h5>
+                <span><s>₦ 95,000</s></span>
+                <p>44 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-22%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/9979831/1.jpg?6413" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">2 In 1 Stainless Steel Ladies Women Female Wrist Watch And Bracelet-Blue/Gold</p>
+                <h5>₦ 5,499</h5>
+                <span><s>₦ 8,000</s></span>
+                <p>24 items left</p>
+                <div class="progress" style="height: 8px;">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <p class="discount">-23%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Limited Stock -->
+      <div class="container">
+        <div class="container" style="display: flex; justify-content: space-between;">
+            <h4>Limited Stock Deals</h4>
+            <a href="">SEE ALL<i class="bi bi-chevron-right ps-2"></i></a>
+        </div>
+        <div class="row g-2">
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/09/1341302/1.jpg?9054" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Apple IPhone 14 Pro Max 6.7'' 6GB 128GB ROM Nano SIM - Gold</p>
+                <h5>₦ 1,070,999</h5>
+                <span><s>₦ 2,555,999</s></span>
+              </div>
+              <p class="discount">-58%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card"> 
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/10/4625342/1.jpg?2489" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Lenovo V50a AIO (24") - 4GB/1TB SSD - Corei3 - FreeDOS</p>
+                <h5>₦ 399,990</h5>
+                <span><s>₦ 420,000</s></span>
+              </div>
+              <p class="discount">-15%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/890938/1.jpg?2642" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Devon King'S Cooking Oil  5L</p>
+                <h5>₦ 6,100</h5>
+                <!-- <span><s>₦ 10,000</s></span> -->
+              </div>
+              <!-- <p class="discount">-49%</p> -->
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/97/5490752/1.jpg?1375" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Sony PlayStation 5 Console - Standard Edition</p>
+                <h5>₦ 550,999</h5>
+                <span><s>₦ 600,000</s></span>
+              </div>
+              <p class="discount">-9%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/08/4300581/1.jpg?4152" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Kiki New Gain LED Display Cordless Rechargeable Clipper (NG-888B)</p>
+                <h5>₦ 8,655</h5>
+                <!-- <span><s>₦ 8,655</s></span> -->
+              </div>
+              <!-- <p class="discount">-64%</p> -->
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/8440622/1.jpg?2300" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Samsung Galaxy A14 6.6" 4GB RAM/64GB ROM Android 13 - Black</p>
+                <h5>₦ 133,650</h5>
+                <span><s>₦ 140,000</s></span>
+              </div>
+              <p class="discount">-5%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hot Essentials Deal -->
+      <div class="container">
+        <div class="container text-center">
+            <h4>Hot Essentials Deal</h4>
+        </div>
+        <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 g-2">
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/fridges_300x400.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/portable-power/300-by-400/generators.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/portable-power/300-by-400/inverters.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/freezers_300x400.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/electronics/0-televisions/smart-tvs_300x400.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/appliances/300x400/air-conditioners_300x400.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hot Essentials Deal 2 -->
+      <div class="container">
+        <div class="container" style="display: flex; justify-content: space-between;">
+            <h4>Official Store Deals<span> | Authenticity Guaranteed</span></h4>
+            <a href="">SEE ALL<i class="bi bi-chevron-right ps-2"></i></a>
+        </div>
+        <div class="row g-2">
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/28/0242391/1.jpg?6076" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Skyrun 4 Burner (4+0) Gas Cooker (GCS-4G/MS500Z-P) - Brown</p>
+                <h5>₦ 76,990</h5>
+                <span><s>₦ 135,155</s></span>
+              </div>
+              <p class="discount">-58%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/6680922/1.jpg?193" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Infinix HOT 30i 6.56" 4GB RAM/128GB ROM Android 12 - Black</p>
+                <h5>₦ 87,900</h5>
+                <span><s>₦ 140,900</s></span>
+              </div>
+              <p class="discount">-38%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/02/5416612/1.jpg?4535" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Nokia 110 Africa Edition Dual SIM Wireless FM, Torch, Camera Phone</p>
+                <h5>₦ 10,500</h5>
+                <span><s>₦ 13,900</s></span>
+              </div>
+              <p class="discount">-24%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/3531721/1.jpg?8710" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Oraimo 20000mAh Power-Bank OPB-P208DN</p>
+                <h5>₦ 12,000</h5>
+                <span><s>₦ 18,915</s></span>
+              </div>
+              <p class="discount">-37%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/7668442/1.jpg?1260" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">BLUETTI EB55 537Wh/700W LiFePO4 Portable Power Station</p>
+                <h5>₦ 485,999</h5>
+                <span><s>₦ 619,990</s></span>
+              </div>
+              <p class="discount">-22%</p>
+            </div>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="card">
+              <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/9997581/1.jpg?2479" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">WEYON 817 3.1ch Blutooth Speaker Home Threater With Micro Function</p>
+                <h5>₦ 34,350</h5>
+                <span><s>₦ 65,045</s></span>
+              </div>
+              <p class="discount">-43%</p>
+            </div>
+          </div>   
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 g-2 text-center">
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x300/best-price_300x300.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">50% Off & Above</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-initiatives/jumia-food/brands/kfc_300x300.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">ShopIt Food</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-initiatives/jbps/updated-jbp-2022/pernod-ricard/Mobile_Triple_Banner__300x300.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Exclusive Deals on Drinks</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/300x300/official-stores_300x300.gif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Official Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-category-pages/0-cat-dev/flashdrives.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Up to 50% Off</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/jumiapay_300x300.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Your Utility Shop</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
     </main>
 
     <!-- Bootstrap Script -->
