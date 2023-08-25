@@ -20,35 +20,35 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler me-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand mr-auto" href="#">
-                <h3>SHOPIT</h3>
+              <a class="navbar-brand me-auto" href="#">
+                <img src="amali-logo.png" alt="" width="130" height="38">
               </a>
-              <form class="d-flex" role="search" style="width: 620px;">
+              <form class="d-flex m-2" role="search" style="width: 620px;">
                 <input class="form-control me-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">SEARCH</button>
+                <button class="btn search-btn" type="submit"><span class="search">SEARCH</span></button>
               </form>
               <div class="navbar-nav">
                     <div class="nav-item dropdown d-none d-lg-block">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fa-solid fa-user fa-lg pe-2"></i>Account<i class="bi bi-chevron-down ps-2" style="font-size: .8rem;"></i>
+                          <i class="fa-solid fa-user fa-lg pe-2"></i>Account<i class="fa-solid fa-chevron-down ps-2" style="font-size: .8rem;"></i>
                         </a>
-                        <div class="box dropdown-menu">
+                        <div class="box dropdown-menu border-0">
                           <div class="d-flex justify-content-center">
-                            <button class="btn btn-outline-success" type="button">Sign In</button>
+                            <button class="btn sign-btn" type="button"><span class="sign">SIGN IN</span></button>
                           </div><hr>
-                          <a class="dropdown-item" href="#">My Account</a>
-                          <a class="dropdown-item" href="#">Orders</a>
-                          <a class="dropdown-item" href="#">Saved Item</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-person me-2" style="font-size: 1.2rem;"></i>My Account</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-inboxes me-2" style="font-size: 1.2rem;"></i>Orders</a>
+                          <a class="dropdown-item" href="#"><i class="bi bi-heart me-2" style="font-size: 1.2rem;"></i>Saved Item</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown d-none d-lg-block">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fa-solid fa-circle-question fa-lg pe-2"></i>Help<i class="bi bi-chevron-down ps-2" style="font-size: .8rem;"></i>
+                          <i class="fa-solid fa-circle-question fa-lg pe-2"></i>Help<i class="fa-solid fa-chevron-down ps-2" style="font-size: .8rem;"></i>
                         </a>
-                        <div class="box dropdown-menu">
+                        <div class="box dropdown-menu border-0">
                           <a class="dropdown-item" href="#">Help Center</a>
                           <a class="dropdown-item" href="#">Place & track order</a>
                           <a class="dropdown-item" href="#">Order cancellation</a>
@@ -56,7 +56,7 @@
                           <a class="dropdown-item" href="#">Payment & Jumia Account</a>
                           <hr>
                           <div class="d-flex justify-content-center">
-                            <button class="btn btn-outline-success" type="button">Help</button>
+                            <button class="btn chat-btn" type="button"><span class="chat"><i class="bi bi-chat-left-dots pe-2"></i>LIVE CHAT</span></button>
                           </div>
                         </div>
                     </div>
@@ -67,12 +67,11 @@
             </div> 
           </nav>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav m-auto">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#how-it-works">How It Works</a>
-              <a class="nav-link" href="#about-us">About</a>
-              <a class="nav-link" href="#why-choose-us">Contact Us</a>
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+            <div class="navbar-nav ms-2">
+              <a class="nav-link" aria-current="page" href="#"><i class="bi bi-inboxes pe-2"></i>Orders</a>
+              <a class="nav-link" href="#"><i class="bi bi-chat-left-text pe-2"></i>Pending Reviews</a>
+              <a class="nav-link" href="#"><i class="bi bi-ticket-perforated pe-2"></i>Vouchers</a>
+              <a class="nav-link" href="#"><i class="bi bi-heart pe-2"></i>Saved Items</a>
             </div>
           </div>
       </header>
@@ -80,9 +79,9 @@
       <!-- Main -->
   <main>
       <!-- Home -->
-      <div class="container">
+      <div class="container home">
         <div class="row">
-          <div class="col-lg-2 d-none d-lg-block home-categories">
+          <div class="col-lg-2 d-none d-lg-block rounded-1 home-categories">
             <p><a href=""><i class="bi bi-gift pe-1"></i>Supermarket</a></p>
             <p><a href=""><i class="bi bi-bag-plus pe-1"></i>Health & Beauty</a></p>
             <p><a href=""><i class="bi bi-house-door pe-1"></i>Home & Office</a></p>
@@ -134,9 +133,11 @@
             </div>
           </div>
 
-          <div class="col-lg-2 d-none d-lg-block">
+          <div class="col-lg-2 p-0 d-none d-lg-block">
             <div class="side-img">
               <img src="https://ng.jumia.is/cms/0-1-initiatives/official-stores/official-store.jpg" alt="">
+            </div>
+            <div class="side-img-2">
               <img src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2023/JForce.png" alt="">
             </div>
           </div>
@@ -144,7 +145,7 @@
       </div>
 
       <!-- Product Row -->
-      <div class="container">
+      <div class="container product-row">
         <div class="row row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2 text-center">
           <div class="col">
             <div class="card">
