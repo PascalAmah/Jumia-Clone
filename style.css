@@ -139,6 +139,13 @@ main {
   background-color: var(--color1);
 }
 
+/* Top Selling Row */
+.second-row {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: var(--color1);
+}
+
 /* Card */
 .card {
     border: 0;
@@ -190,29 +197,6 @@ main {
     color: #f68b1e;
     background-color: #fef3e9;
 }
-
-/* Top Selling Row */
-.second-row {
-    padding: 5px;
-    border-radius: 4px;
-    background-color: var(--color1);
-}
-
-/* Flash Sales Row */
-.third-row {
-    padding: 5px;
-    /* border-radius: 4px; */
-    background-color: var(--color1);
-}
-
-.third-row-header {
-    box-sizing: border-box;
-    width: auto;
-    /* margin-bottom: 7px; */
-    color: var(--color1);
-    background-color: red;
-}
-
 
 .form-2 {
     border: none;
