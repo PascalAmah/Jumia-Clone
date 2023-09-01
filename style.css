@@ -90,6 +90,7 @@ main {
 }
 
 .home-categories {
+    margin-bottom: 0;
     background-color: var(--color1);
     color: var(--color5);
 }
