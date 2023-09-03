@@ -8,7 +8,11 @@
     --color5: #252424;
     --color6: #535357;
     --color7: #fef3e9;
+}
 
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -103,7 +107,8 @@ main {
 }
 
 .home-categories p {
-    margin: 8px;
+    margin: 7px;
+    padding-left: 4px;
 }
 
 .home-categories a {
